@@ -1,0 +1,6 @@
+n = float(input().strip())
+s = input().strip()
+print("please input a number:")
+print("please input a string:")
+print(n)
+print(s)
