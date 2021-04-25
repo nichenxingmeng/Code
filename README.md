@@ -1,2 +1,2 @@
 # Code
-programming training
+Python Algorithm
