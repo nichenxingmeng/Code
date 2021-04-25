@@ -1,4 +1,4 @@
-# Code
+# Python Code
 
 Python Algorithm
 
