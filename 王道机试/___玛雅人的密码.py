@@ -10,6 +10,7 @@ class item:
 
 Q = []
 Q.append(item(s, t))
+tmp = []
 
 while Q:
     u = Q[0]
@@ -17,7 +18,6 @@ while Q:
     
     if u.t > 10 ** 100:
         print(-1)
-        flag = False
         break
     
     if '2012' in ''.join(u.s):
@@ -26,6 +26,10 @@ while Q:
     
     for i in range(n-1):
         x = u.s[:]
+        if x in tmp:
+            continue
+        else:
+            tmp.append(x)
         
         temp = x[i + 1]
         x[i + 1] = x[i]
